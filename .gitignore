@@ -1,0 +1,28 @@
+# Local operating-system files
+.DS_Store
+**/.DS_Store
+
+# Database dumps and private credentials
+*.sql
+*.pem
+**/keys/
+**/wp-config.php
+**/backup.wp-config.php
+
+# Backup archives (large binary files are unsuitable for normal Git history)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+
+# Runtime, cache, security-log, and generated data
+**/wp-content/wflogs/
+**/wp-content/aiowps_backups/
+**/wp-content/litespeed/
+**/wp-content/cache/
+**/wp-content/uploads-webpc/
+**/.tmb/
+**/.quarantine/
+
